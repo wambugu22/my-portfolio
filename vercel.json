@@ -1,7 +1,16 @@
 {
   "rewrites": [
-    { "source": "/assets/projects/:file*", "destination": "/:file*" },
-    { "source": "/assets/:file*", "destination": "/:file*" },
-    { "source": "/((?!.*\\.).*)", "destination": "/index.html" }
+    {
+      "source": "/assets/projects/:file*",
+      "destination": "/:file*"
+    },
+    {
+      "source": "/assets/:file*",
+      "destination": "/:file*"
+    },
+    {
+      "source": "/((?!.*\\.).*)",
+      "destination": "/index.html"
+    }
   ]
 }
